@@ -1,6 +1,6 @@
 module.exports = {
-  plugins: ['svelte3'],
-  overrides: [{ files: ['*.svelte'], processor: 'svelte3/svelte3' }],
+  extends: ['plugin:svelte/recommended'],
+  overrides: [{ files: ['*.svelte'], parser: 'svelte-eslint-parser' }],
   env: {
     browser: true,
     es2017: true,
