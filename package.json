@@ -1,7 +1,7 @@
 {
   "name": "music-trivia",
   "version": "0.0.0",
-	"type": "module",
+  "type": "module",
   "repository": "https:/github.com/svelte-hackathon/music-trivia.git",
   "license": "MIT",
   "private": true,
@@ -9,11 +9,8 @@
     "app"
   ],
   "devDependencies": {
-    "@sveltejs/kit": "^1.10.0",
     "eslint": "^8.35.0",
     "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.27.5",
-    "eslint-plugin-svelte": "^2.20.0",
-    "svelte-eslint-parser": "^0.23.0"
+    "eslint-plugin-import": "^2.27.5"
   }
 }
